@@ -185,3 +185,5 @@ Chinook.db
 .trae
 .pylintrc
 .vscode
+/pyproject.toml
+uv.lock
