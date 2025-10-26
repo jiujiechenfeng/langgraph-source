@@ -1,0 +1,80 @@
+{
+  "order_id": "ORD-20251026-8891",
+  "timestamp": "2025-10-26T14:30:45+08:00",
+  "status": "shipped",
+  "customer": {
+    "user_id": "U789456123",
+    "name": "李明",
+    "email": "liming@example.com",
+    "phone": "+86 138****5678",
+    "address": {
+      "country": "中国",
+      "province": "广东省",
+      "city": "深圳市",
+      "district": "南山区",
+      "street": "科技园南区123号",
+      "postal_code": "518000"
+    },
+    "preferences": {
+      "language": "zh-CN",
+      "currency": "CNY",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "P10045",
+      "name": "无线蓝牙降噪耳机",
+      "brand": "SoundWave",
+      "category": "电子产品",
+      "quantity": 1,
+      "unit_price": 899.00,
+      "total_price": 899.00,
+      "attributes": {
+        "color": "黑色",
+        "warranty_months": 12
+      }
+    },
+    {
+      "product_id": "P20078",
+      "name": "智能手环 Pro",
+      "brand": "FitLife",
+      "category": "可穿戴设备",
+      "quantity": 2,
+      "unit_price": 299.50,
+      "total_price": 599.00,
+      "attributes": {
+        "color": "银色",
+        "size": "通用",
+        "water_resistant": true
+      }
+    }
+  ],
+  "pricing": {
+    "subtotal": 1498.00,
+    "discount": {
+      "code": "WELCOME10",
+      "description": "新用户首单9折",
+      "amount": -149.80
+    },
+    "shipping_fee": 0.00,
+    "tax": 0.00,
+    "total": 1348.20
+  },
+  "shipping": {
+    "method": "顺丰快递",
+    "tracking_number": "SF123456789CN",
+    "estimated_delivery": "2025-10-28",
+    "notes": "请放快递柜，勿电联"
+  },
+  "metadata": {
+    "source": "mobile_app",
+    "version": "2.4.1",
+    "ip_address": "203.0.113.45",
+    "tags": ["premium_user", "frequent_buyer"]
+  }
+}
